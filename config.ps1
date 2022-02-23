@@ -5,6 +5,7 @@ winget install voidtools.Everything --accept-source-agreements
 winget install Microsoft.VisualStudioCode --accept-source-agreements
 winget install Microsoft.WindowsTerminal --accept-source-agreements
 winget install SublimeHQ.SublimeText.4 --accept-source-agreements
+winget install WinSCP.WinSCP --accept-source-agreements
 
 # Personal tools
 winget install GitHub.GitHubDesktop --accept-source-agreements

@@ -7,6 +7,11 @@ Recently installed Windows 11 and gosh do I hate the default setup. Aim of this 
 ## Steps 
 1. Run in Powershell as admin
 ```
-Set-ExecutionPolicy -ExecutionPolicy Bypass -Force; [System.net.ServicePointManager]::SecurityProtocol = 3072 -bor 768 -bor 192 -bor 48; iwr http://github.com/Francommit/win11_config/raw/master/config.ps1 -UseBasicParsing | iex
+Set-ExecutionPolicy -ExecutionPolicy Bypass -Force ;exit
+```
+
+2. Start a new Powershell instance and run as admin:
+```
+set-executionpolicy remotesigned -s currentuser; [System.net.ServicePointManager]::SecurityProtocol = 3072 -bor 768 -bor 192 -bor 48; iwr http://github.com/Francommit/win11_config/raw/main/config.ps1 -UseBasicParsing | iex
 ```
 

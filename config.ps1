@@ -11,3 +11,4 @@ winget install GitHub.GitHubDesktop --accept-source-agreements
 
 # Games
 winget install Valve.Steam --accept-source-agreements
+winget install EpicGames.EpicGamesLauncher --accept-source-agreements

@@ -19,6 +19,8 @@ winget install GitHub.GitHubDesktop --accept-source-agreements
 # Windows Configration
 winget install startallback --accept-source-agreements
 
+# Remove windows widgets
+winget uninstall MicrosoftWindows.Client.WebExperience_cw5n1h2txyewy
 
 ###
 # Old win10 config to test

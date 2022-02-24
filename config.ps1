@@ -17,7 +17,7 @@ winget install Valve.Steam --accept-source-agreements
 winget install EpicGames.EpicGamesLauncher --accept-source-agreements
 
 # Windows Configration
-winget install StartIsBack --accept-source-agreements
+winget install startallback --accept-source-agreements
 
 
 ###

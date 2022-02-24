@@ -13,8 +13,8 @@ winget install Google.Chrome --accept-source-agreements
 winget install GitHub.GitHubDesktop --accept-source-agreements
 
 # Games
-winget install Valve.Steam --accept-source-agreements
-winget install EpicGames.EpicGamesLauncher --accept-source-agreements
+# winget install Valve.Steam --accept-source-agreements
+# winget install EpicGames.EpicGamesLauncher --accept-source-agreements
 
 # Windows Configration
 winget install startallback --accept-source-agreements
